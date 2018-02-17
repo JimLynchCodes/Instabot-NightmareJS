@@ -1,11 +1,6 @@
 import Nightmare from 'nightmare';
 const nightmare = Nightmare({ show: true });
 
-
-
-
-
-
 nightmare
   .goto('https://www.instagram.com/')
   .evaluate( function() {
