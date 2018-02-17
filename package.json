@@ -4,7 +4,8 @@
   "description": "A bot for automatign tasks on Instagram using the nightmare.js library.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "mocha \"**.test.js\" --require co-mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/JimTheMan/Instabot-NightmareJS#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
     "nightmare": "^2.10.0"
+  },
+  "dependencies": {
+    "co-mocha": "^1.2.1",
+    "mocha": "^5.0.1"
   }
 }
